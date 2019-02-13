@@ -1,6 +1,6 @@
 # This is the first file I've made in the first Project I've made which intended to be made in pyc and added to an existing repo in gh
 # UPDATE: it doesn't add to an existing repo - it creates a new repo of it's own
-
+# A FORK WAS AUTOMATICALLY ADDED AS I DID NOT HAVE WRITE PRIVILEGES ON THIS REPO. SO I'M NOW MAKING CHANGES TO MY OWN FORK.\
 first_name = input("What's your first name? \n --> \n")
 full_name = first_name
 surname = input("What's your surname? \n --> \n")
@@ -35,7 +35,7 @@ elif got_mids == "no":
     print("Cool, in that case, your name must be " + full_name)
 
 else:
-    print("Woops, I didn't understand that respone...")
+    print("Woops, I didn't understand that response...")
 
 # testing testing testinggggggggggggg
 # change made in GitHub
