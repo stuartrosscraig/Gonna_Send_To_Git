@@ -10,7 +10,7 @@ got_mids = input("Here's a question, yes or no, any middle names? \n --> \n")
 i = 0
 # j = 0
 
-if got_mids == "yes":
+if got_mids == "yes" or "Yes":
     num_mids = int(input("Ah cool, how many? \n --> \n"))
     middle_names = [0] * num_mids
 
@@ -30,7 +30,7 @@ if got_mids == "yes":
     full_name = full_name + " " + surname
     print("Lemme guess, your full name is " + full_name)
 
-elif got_mids == "no":
+elif got_mids == "no" or "No":
     full_name = full_name + " " + surname
     print("Cool, in that case, your name must be " + full_name)
 
@@ -43,3 +43,5 @@ else:
 # and change number 3
 # change number 4 coming up
 # and, everyone's favourite, change 5
+
+# This was pushed to Justin's fork.
