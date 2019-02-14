@@ -1,6 +1,6 @@
 # This is the first file I've made in the first Project I've made which intended to be made in pyc and added to an existing repo in gh
 # UPDATE: it doesn't add to an existing repo - it creates a new repo of it's own
-
+# A FORK WAS AUTOMATICALLY ADDED AS I DID NOT HAVE WRITE PRIVILEGES ON THIS REPO. SO I'M NOW MAKING CHANGES TO MY OWN FORK.\
 first_name = input("What's your first name? \n --> \n")
 full_name = first_name
 surname = input("What's your surname? \n --> \n")
@@ -10,7 +10,7 @@ got_mids = input("Here's a question, yes or no, any middle names? \n --> \n")
 i = 0
 # j = 0
 
-if got_mids == "yes":
+if got_mids == "yes" or "Yes":
     num_mids = int(input("Ah cool, how many? \n --> \n"))
     middle_names = [0] * num_mids
 
@@ -30,12 +30,12 @@ if got_mids == "yes":
     full_name = full_name + " " + surname
     print("Lemme guess, your full name is " + full_name)
 
-elif got_mids == "no":
+elif got_mids == "no" or "No":
     full_name = full_name + " " + surname
     print("Cool, in that case, your name must be " + full_name)
 
 else:
-    print("Woops, I didn't understand that respone...")
+    print("Woops, I didn't understand that response...")
 
 # testing testing testinggggggggggggg
 # change made in GitHub
@@ -43,3 +43,5 @@ else:
 # and change number 3
 # change number 4 coming up
 # and, everyone's favourite, change 5
+
+# This was pushed to Justin's fork.
